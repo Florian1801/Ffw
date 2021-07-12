@@ -40,6 +40,8 @@ function Camera:deleteCam(bool)
     end
 end
 
+-- Fait par Florian et non par Narek qui c'est atribuer mon travail ! 
+
 function Camera:setFov(float)
     if self.exist then
         SetCamFov(self.id, float)
